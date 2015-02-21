@@ -47,6 +47,13 @@ div {
 }
 
 
+.question::before {
+	content: "+  ";
+}
+
+.close::before {
+content: '-  ';
+}
 /*div:hover {
 	-webkit-transform: scale(2);
 	background: #F2F2F2;
